@@ -1420,6 +1420,11 @@ text-transform: capitalize;
 color: #2E2F42;
 transition: color var(--transition-dur-and-fun);
 }
+
+
+.mobile-link.curent{
+ color: var(--hover-color);
+}
 .mobile-link:hover,
 .mobile-link:focus {
   color: var(--hover-color);
@@ -1465,6 +1470,7 @@ transition: color var(--transition-dur-and-fun);
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #4D5AE5;
 }
 
 @media only screen and (min-width: 428px) {
